@@ -17,13 +17,13 @@
 - [ ] sync every once in a while to the registry (or on change)
 
 ## Contract
-- [ ] Type `AcIssuer = AcRP = AcHolder = AccountId`
-- [ ] Type `CredentialSchema = string` (_JSON schema_)
+- [x] Type `AcIssuer = AcRP = AcHolder = AccountId`
+- [x] Type `CredentialSchema = string` (_JSON schema_)
 ### Issuer Contract
-- [ ] Var credentialSchemata: `Record<AcIssuer, HashSet<CredentialSchema>>`, 
-- [ ] Var credentialHashes: `Record<(AcIssuer, CredentialSchema), HashSet<CredentialHashes>>`
-- [ ] func `addCredentialSchema(credentialSchema: CredentialSchema)` (_predecessor becomes issuer_)
-- [ ] func `modifyCredentialHashes(schemaId: CredentialSchemaId, add: CredentialHashes[], remove: CredentialHashes[])`
+- [x] Var credentialSchemata: `Record<AcIssuer, HashSet<CredentialSchema>>`, 
+- [x] Var credentialHashes: `Record<(AcIssuer, CredentialSchema), HashSet<CredentialHashes>>`
+- [x] func `addCredentialSchema(credentialSchema: CredentialSchema)` (_predecessor becomes issuer_)
+- [x] func `modifyCredentialHashes(schemaId: CredentialSchemaId, add: CredentialHashes[], remove: CredentialHashes[])`
 
 ### Verifier Contract
 - [ ] func `cred_call(receiver: AcRP, proof: ZKProof, usedSchemata: (AcIssuer, CredentialSchemaId)[]): CrossContractCall`
