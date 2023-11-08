@@ -10,7 +10,7 @@
 
 ## Backend
 ### Holder Backend
-- [ ] Endpoint to generate proofs
+- [x] Endpoint to generate proofs
 ### Issuer Backend
 - [ ] small db
 - [ ] endpoint to add/remove entries
