@@ -26,7 +26,7 @@
 - [x] func `modifyCredentialHashes(schemaId: CredentialSchemaId, add: CredentialHashes[], remove: CredentialHashes[])`
 
 ### Verifier Contract
-- [ ] func `cred_call(receiver: AcRP, proof: ZKProof, usedSchemata: (AcIssuer, CredentialSchemaId)[]): CrossContractCall`
+- [x] func `cred_call(receiver: AcRP, proof: ZKProof, usedSchemata: (AcIssuer, CredentialSchemaId)[]): CrossContractCall`
 
 ## Example Contract (RP)
 - [ ] Var `trustedCredentials: HashSet<(AcIssuer, CredentialSchemaId)>`
